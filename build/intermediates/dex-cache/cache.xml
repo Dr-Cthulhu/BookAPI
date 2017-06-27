@@ -84,6 +84,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/arajesh/.gradle/caches/modules-2/files-2.1/org.parceler/parceler-api/1.1.6/2a06b6b1ecf5dadee8a874dfb51ad018fde3e6c5/parceler-api-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2a06b6b1ecf5dadee8a874dfb51ad018fde3e6c5">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/parceler-api-1.1.6_84824f5d2528f326eff368e846f0b6c50674acda.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/arajesh/BookAPI/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"

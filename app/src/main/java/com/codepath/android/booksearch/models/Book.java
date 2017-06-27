@@ -5,13 +5,17 @@ import android.text.TextUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
 import java.util.ArrayList;
 
+@Parcel
 public class Book {
-    private String openLibraryId;
-    private String author;
-    private String title;
+    String openLibraryId;
+    String author;
+    String title;
+
+    public Book() {}
 
     public String getOpenLibraryId() {
         return openLibraryId;
@@ -20,6 +24,8 @@ public class Book {
     public String getTitle() {
         return title;
     }
+
+
 
     public String getAuthor() {
         return author;
