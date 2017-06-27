@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9_300cce329ba6b867143db58e1cd36ae64b8ccd93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/BookAPI/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_44658953cb7f910cf94ac2450ec44b0ae7c1a7b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/BookAPI/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_984e6bed5c8ba0cb646dc41d5969fea91056862b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/BookAPI/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_41c8609242448867c67b53a6d7941e82af5446e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6_d5aa67337eafdce627e06f3e204464e0c97f4e7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.8.0/9bada650e1afe9c6174ddc0d113c1fce4dc26fe0/glide-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9bada650e1afe9c6174ddc0d113c1fce4dc26fe0">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/glide-3.8.0_bc781b8471808ac24b64c3049c0e3edb453b5342.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/BookAPI/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_e8781a027458d01537513f3f6629d41fd8f13884.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/BookAPI/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_23ee75d234674ca7e619165210fc6dda7ecd08ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/BookAPI/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_777ab9dcc665003cac839934586cf59266b77158.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/BookAPI/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_64b333a758c2eb6ca349eb9d3aba817f99128498.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/BookAPI/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_f7faac048f06eb61092b3b64da906e83aa98ede2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_66697ec55a338eaae920a344c4f7bb19b95d4314.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/BookAPI/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_84a22d85483ad7eee10c9452b232a6b04be4e4ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arajesh/BookAPI/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/arajesh/BookAPI/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_e4ab8d76b816d1b060bf507f75c41da8356565e6.jar" />
+    </item>
+
+</items>
