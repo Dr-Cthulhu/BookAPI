@@ -3,7 +3,6 @@ package com.codepath.android.booksearch.activities;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -115,10 +114,14 @@ public class BookDetailActivity extends AppCompatActivity {
 
     // Can be triggered by a view event such as a button press
     public void onShareItem(MenuItem v) {
+
+
         // Get access to bitmap image from view
         ImageView ivImage = (ImageView) findViewById(R.id.ivBookCover);
+        BitmapDrawable drawable = (BitmapDrawable) ivImage.getDrawable();
+        Bitmap bitmap = drawable.getBitmap();
         // Get access to the URI for the bitmap
-        Uri bmpUri = getLocalBitmapUri(ivImage);
+        Uri bmpUri = getBitmapFromDrawable(bitmap);
         if (bmpUri != null) {
             // Construct a ShareIntent with link to image
             Intent shareIntent = new Intent();
@@ -133,33 +136,33 @@ public class BookDetailActivity extends AppCompatActivity {
         }
     }
 
-    // Returns the URI path to the Bitmap displayed in specified ImageView
-    public Uri getLocalBitmapUri(ImageView imageView) {
-        // Extract Bitmap from ImageView drawable
-        Drawable drawable = imageView.getDrawable();
-        Bitmap bmp = null;
-        if (drawable instanceof BitmapDrawable){
-            bmp = ((BitmapDrawable) imageView.getDrawable()).getBitmap();
-        } else {
-            return null;
-        }
-        // Store image to default external storage directory
-        Uri bmpUri = null;
-        try {
-            // Use methods on Context to access package-specific directories on external storage.
-            // This way, you don't need to request external read/write permission.
-            // See https://youtu.be/5xVh-7ywKpE?t=25m25s
-            File file =  new File(getExternalFilesDir(Environment.DIRECTORY_PICTURES), "share_image_" + System.currentTimeMillis() + ".png");
-            FileOutputStream out = new FileOutputStream(file);
-            bmp.compress(Bitmap.CompressFormat.PNG, 90, out);
-            out.close();
-            // **Warning:** This will fail for API >= 24, use a FileProvider as shown below instead.
-            bmpUri = Uri.fromFile(file);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return bmpUri;
-    }
+//    // Returns the URI path to the Bitmap displayed in specified ImageView
+//    public Uri getLocalBitmapUri(ImageView imageView) {
+//        // Extract Bitmap from ImageView drawable
+//        Drawable drawable = imageView.getDrawable();
+//        Bitmap bmp = null;
+//        if (drawable instanceof BitmapDrawable){
+//            bmp = ((BitmapDrawable) imageView.getDrawable()).getBitmap();
+//        } else {
+//            return null;
+//        }
+//        // Store image to default external storage directory
+//        Uri bmpUri = null;
+//        try {
+//            // Use methods on Context to access package-specific directories on external storage.
+//            // This way, you don't need to request external read/write permission.
+//            // See https://youtu.be/5xVh-7ywKpE?t=25m25s
+//            File file =  new File(getExternalFilesDir(Environment.DIRECTORY_PICTURES), "share_image_" + System.currentTimeMillis() + ".png");
+//            FileOutputStream out = new FileOutputStream(file);
+//            bmp.compress(Bitmap.CompressFormat.PNG, 90, out);
+//            out.close();
+//            // **Warning:** This will fail for API >= 24, use a FileProvider as shown below instead.
+//            bmpUri = Uri.fromFile(file);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        return bmpUri;
+//    }
 
 
     // Gets the image URI and setup the associated share intent to hook into the provider
