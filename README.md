@@ -1,6 +1,6 @@
 
 
-Created by Emily Pan and Abinaya Rajesh
+Created by Emily Pan (Github username : Dr-Cthulhu) and Abinaya Rajesh (Github username : AbinayaRajesh)
 
 # Book Search App
 
